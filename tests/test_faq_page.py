@@ -9,7 +9,7 @@ class TestFaqPage:
 
     @classmethod
     def setup_class(cls):
-        cls.driver = webdriver.Chrome()
+        cls.driver = webdriver.Firefox()
 
     @allure.title('Check the first FAQ question and answer')
     @allure.description('Click on the first question button and validate question and answer text')
